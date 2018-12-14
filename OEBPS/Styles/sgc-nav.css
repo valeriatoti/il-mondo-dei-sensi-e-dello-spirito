@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@namespace epub "http://www.idpf.org/2007/ops";
+
+@font-face {
+font-family: 'Andada';
+src: url(../Fonts/Andada-Regular.otf);
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'Anaktoria';
+src:url(../Fonts/Anaktoria.otf);
+font-weight:normal;
+font-style:normal;
+}
+
+nav#landmarks {
+    display:none;
+}
+
+nav#page-list {
+    display:none;
+}
+
+
+body {
+	font-family: 'Andada', serif;
+}
+
+h1 {
+font-family: 'Anaktoria', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.8em;
+  line-height: 1;
+	font-weight: normal;
+  margin-top: 1.65em;
+  margin-bottom: 0.4em;
+}
+
+ol {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+ol li {
+	padding-top: 0.5em;
+}
+

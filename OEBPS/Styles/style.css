@@ -1,0 +1,270 @@
+@charset "UTF-8";
+@namespace epub "http://www.idpf.org/2007/ops";
+
+@font-face {
+font-family: 'Andada';
+src: url(../Fonts/Andada-Regular.otf);
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'Andada';
+src: url(../Fonts/Andada-Italic.otf);
+font-weight: normal;
+font-style: italic;
+font-variant:normal;
+}
+@font-face {
+font-family: 'Andada';
+src: url(../Fonts/Andada-Bold.otf);
+font-weight: bold;
+font-style: normal;
+}
+@font-face {
+font-family: 'Andada';
+src: url(../Fonts/Andada-BoldItalic.otf);
+font-weight: bold;
+font-style: italic;
+font-variant:normal;
+}
+@font-face {
+font-family: 'Anaktoria';
+src:url(../Fonts/Anaktoria.otf);
+font-weight:normal;
+font-style:normal;
+}
+
+/* RESET */
+
+aside, blockquote, details, div, figure, figcaption, footer, h1, h2, h3, header, hr, li, nav, ol, p, section, ul {
+  margin: 0;
+  padding: 0;
+  font-size: 1em;
+  line-height: inherit;
+  text-indent: 0;
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* LAYOUT */
+
+body {
+  font-size: 100%;
+	font-family: 'Andada', serif;
+  adobe-hyphenate: auto;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  -epub-hyphens: auto;
+  hyphens: auto;
+  -webkit-hyphenate-limit-before: 2;
+  -webkit-hyphenate-limit-after: 2;
+  -webkit-hyphenate-limit-lines: 2;
+  text-align: justify;
+  line-height: 1.5;
+  widows: 2;
+  orphans: 2;
+}
+
+/* TYPOGRAPHY */
+
+h1, h2, h3, h4, blockquote p cite, figcaption, #subtitle {
+  adobe-hyphenate: none;
+  -ms-hyphens: none;
+  -moz-hyphens: none;
+  -webkit-hyphens: none;
+  -epub-hyphens: none;
+  hyphens: none;
+}
+
+h1, h2, h3, h4, hr {
+  page-break-inside: avoid;
+  break-inside: avoid;
+  page-break-after: avoid;
+  break-after: avoid;
+	text-align: center;
+}
+
+/* HEADINGS */
+
+h1 {
+font-family: 'Anaktoria', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.8em;
+  line-height: 1.04347826;
+  margin-top: 1.65em;
+  margin-bottom: 0.8em;
+}
+
+h2 {
+font-family: 'Anaktoria', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.3125em;
+  line-height: 1.14285714;
+  margin-top: 2.28571429em;
+  margin-bottom: 1.14285714em;
+}
+
+h3 {
+font-family: 'Anaktoria', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1.125em;
+  line-height: 1.33333333;
+  margin-top: 1.33333333em;
+  margin-bottom: 0;
+}
+
+/* BLOCK ELEMENTS */
+
+p {
+  text-indent: 5%;
+}
+
+section#epigraph+p, 
+figure+p,
+table+p,
+.dropcap {
+  text-indent: 0;
+}
+
+.sgc-toc-level-1>p {text-indent: 0;}
+
+div.sgc-toc-level-1 {
+    margin-top: 0.8em;
+}
+
+/* SECTION */
+
+section#epigraph p,
+section#credits p,
+section#titlepage p,
+section#notice p,
+section#preamble p {
+text-indent: 0;
+}
+
+section#titlepage,
+section#preamble {
+	text-align: center;
+}
+
+section#credits p,
+section#notice p,
+section#notice ul li {
+	font-size: 0.85em;
+}
+
+section#notice p cite {
+	display: block;
+}
+
+section#epigraph {
+	page-break-after: always !important;
+	margin-top: 1em;
+}
+
+section#epigraph p {
+	font-style: italic;
+}
+
+section#epigraph + p {
+	margin-top: 25%;
+}
+
+section#epigraph + p::first-line {
+	letter-spacing: 0.1em;
+	font-variant: small-caps;
+	margin-top: 30%;
+}
+
+hr.horizontalRule {
+	border-bottom:none;
+	border-left:none;
+	border-right:none;
+	border-top:solid #000000 1px;
+}
+
+table {
+  display: table;
+  table-layout: auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+  min-width: 70%;
+  max-width: 100%;
+  margin: 1.5em auto;
+}
+
+th {
+	border-top: 0.065em dotted;
+	padding-top: 0.065em;
+}
+
+/* MICROTYPOGRAPHY */
+.center {
+ text-align: center !important;
+}
+.small-caps {
+	font-variant: small-caps;
+}
+
+/* LIST */
+ul {
+		text-align: inherit;
+}
+
+ol, ul {
+	text-align: inherit;
+	list-style: inside;
+}
+
+.style-none {
+	list-style: none;
+}
+
+li {
+	margin-bottom: 0.5em;
+}
+
+/* FIGURES + IMAGES  */
+
+figure {
+  page-break-inside: avoid;
+  break-inside: avoid;
+  margin: 1.5em 0;
+  text-align: center;
+}
+
+figcaption,
+.caption {
+  font-size: 0.85em;
+  line-height: 1.6;
+  text-indent: 0;
+  font-style: italic;
+}
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.float-right {
+  float: right;
+  margin: 0 0 0 0.35em;
+  width: 20%;
+	page-break-inside: avoid;
+	break-inside: avoid; 
+}
+
+.float-right img {
+  width: 100%;
+	page-break-inside: avoid;
+	break-inside: avoid; 
+}
+
+img.decoration {
+	width: 14%;
+	height: auto;
+}
+
+.hidden {
+	display: none;
+}

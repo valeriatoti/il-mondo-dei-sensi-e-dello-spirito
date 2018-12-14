@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package version="3.0" unique-identifier="BookId" prefix="rendition: http://www.idpf.org/vocab/rendition/# schema: http://schema.org/ a11y: http://www.idpf.org/epub/vocab/package/a11y/ ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/" xmlns="http://www.idpf.org/2007/opf">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <dc:creator id="cre">Rudolf Steiner</dc:creator>
+    <meta scheme="marc:relators" property="role" refines="#cre">aut</meta>
+    <dc:language>it</dc:language>
+    <dc:title>Il mondo dei Sensi e il mondo dello Spirito</dc:title>
+    <dc:publisher>ebookaccessibili.it</dc:publisher>
+    <dc:contributor id="translator">Lina Schwarz</dc:contributor>
+    <meta scheme="marc:relators" property="role" refines="#translator">trl</meta>
+    <dc:contributor id="ebookdeveloper">Valeria Toti</dc:contributor>
+    <meta scheme="marc:relators" property="role" refines="#ebookdeveloper">mrk</meta>
+    <dc:contributor id="ebookdesigner">Valeria Toti</dc:contributor>
+    <meta scheme="marc:relators" property="role" refines="#ebookdesigner">bkd</meta>
+    <dc:rights>Quest'opera è distribuita con Licenza Creative Commons Attribuzione - Non commerciale - Condividi allo stesso modo 4.0 Internazionale.</dc:rights>
+    <dc:source>Il mondo dei sensi e il mondo dello spirito – Dr. Rudolf Steiner; Milano: ITE, 1936.</dc:source>
+    <dc:identifier id="BookId">urn:uuid:0e1bc514-efe4-4218-915c-3e5cf2d9a9c3</dc:identifier>
+    <meta property="ibooks:specified-fonts">true</meta>
+    <meta content="0.9.10" name="Sigil version" />
+    <meta property="dcterms:modified">2018-12-14T17:16:16Z</meta>
+    <meta name="cover" content="cover.jpg" />
+    <link rel="onix-record" href="onix.xml" />
+    <meta property="schema:accessibilitySummary">Questa pubblicazione è conforme alle WCAG 2.0 Livello AA.</meta>
+    <meta property="schema:accessMode">textual</meta>
+    <meta property="schema:accessMode">visual</meta>
+    <meta property="schema:accessModeSufficient">textual,visual</meta>
+    <meta property="schema:accessModeSufficient">textual</meta>
+    <meta property="schema:accessibilityFeature">structuralNavigation</meta>
+    <meta property="schema:accessibilityFeature">alternativeText</meta>
+    <meta property="schema:accessibilityFeature">longDescriptions</meta>
+    <meta property="schema:accessibilityAPI">ARIA</meta>
+    <meta property="schema:accessibilityControl">fullKeyboardControl</meta>
+    <meta property="schema:accessibilityControl">fullMouseControl</meta>
+    <meta property="schema:accessibilityControl">fullTouchControl</meta>
+    <meta property="schema:accessibilityHazard">noFlashing</meta>
+    <meta property="schema:accessibilityHazard">noSound</meta>
+    <meta property="schema:accessibilityHazard">noMotionSimulation</meta>
+    <meta property="a11y:certifiedBy">ebookaccessibili.it</meta>
+    <link rel="dcterms:conformsTo" href="http://www.idpf.org/epub/a11y/accessibility-20170105.html#wcag-aa" />
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="Note.xhtml" href="Text/Note.xhtml" media-type="application/xhtml+xml"/>
+    <item id="sgc-nav.css" href="Styles/sgc-nav.css" media-type="text/css"/>
+    <item id="nav.xhtml" href="Text/nav.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+    <item id="style.css" href="Styles/style.css" media-type="text/css"/>
+    <item id="notice.xhtml" href="Text/notice.xhtml" media-type="application/xhtml+xml"/>
+    <item id="cap01.xhtml" href="Text/cap01.xhtml" media-type="application/xhtml+xml"/>
+    <item id="cap02.xhtml" href="Text/cap02.xhtml" media-type="application/xhtml+xml"/>
+    <item id="cap03.xhtml" href="Text/cap03.xhtml" media-type="application/xhtml+xml"/>
+    <item id="cap04.xhtml" href="Text/cap04.xhtml" media-type="application/xhtml+xml"/>
+    <item id="cap05.xhtml" href="Text/cap05.xhtml" media-type="application/xhtml+xml"/>
+    <item id="image001.jpg" href="Images/image001.jpg" media-type="image/jpeg"/>
+    <item id="image002.jpg" href="Images/image002.jpg" media-type="image/jpeg"/>
+    <item id="image003.jpg" href="Images/image003.jpg" media-type="image/jpeg"/>
+    <item id="image004.jpg" href="Images/image004.jpg" media-type="image/jpeg"/>
+    <item id="image005.jpg" href="Images/image005.jpg" media-type="image/jpeg"/>
+    <item id="image007.jpg" href="Images/image007.jpg" media-type="image/jpeg"/>
+    <item id="image009.jpg" href="Images/image009.jpg" media-type="image/jpeg"/>
+    <item id="Andada-Bold.otf" href="Fonts/Andada-Bold.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="Andada-BoldItalic.otf" href="Fonts/Andada-BoldItalic.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="Andada-Italic.otf" href="Fonts/Andada-Italic.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="Andada-Regular.otf" href="Fonts/Andada-Regular.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="Anaktoria.otf" href="Fonts/Anaktoria.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="cover.jpg" href="Images/cover.jpg" media-type="image/jpeg" properties="cover-image"/>
+    <item id="cover.xhtml" href="Text/cover.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+    <item id="TittlePage.xhtml" href="Text/TittlePage.xhtml" media-type="application/xhtml+xml"/>
+    <item id="preamble.xhtml" href="Text/preamble.xhtml" media-type="application/xhtml+xml"/>
+    <item id="toc-img.xhtml" href="Text/toc-img.xhtml" media-type="application/xhtml+xml"/>
+    <item id="credits.xhtml" href="Text/credits.xhtml" media-type="application/xhtml+xml"/>
+    <item id="decoration.svg" href="Images/decoration.svg" media-type="image/svg+xml"/>
+    <item id="TOC.xhtml" href="Text/TOC.xhtml" media-type="application/xhtml+xml"/>
+    <item id="cap06.xhtml" href="Text/cap06.xhtml" media-type="application/xhtml+xml"/>
+    <item id="image008.jpg" href="Images/image008.jpg" media-type="image/jpeg"/>
+    <item id="image006.jpg" href="Images/image006.jpg" media-type="image/jpeg"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover.xhtml"/>
+    <itemref idref="TittlePage.xhtml"/>
+    <itemref idref="credits.xhtml"/>
+    <itemref idref="notice.xhtml"/>
+    <itemref idref="nav.xhtml"/>
+    <itemref idref="preamble.xhtml"/>
+    <itemref idref="cap01.xhtml"/>
+    <itemref idref="cap02.xhtml"/>
+    <itemref idref="cap03.xhtml"/>
+    <itemref idref="cap04.xhtml"/>
+    <itemref idref="cap05.xhtml"/>
+    <itemref idref="cap06.xhtml"/>
+    <itemref idref="Note.xhtml" linear="no"/>
+    <itemref idref="TOC.xhtml"/>
+    <itemref idref="toc-img.xhtml"/>
+  </spine>
+  <guide>
+    <reference type="toc" title="Sommario" href="Text/nav.xhtml"/>
+    <reference type="cover" title="Copertina" href="Text/cover.xhtml"/>
+  </guide>
+</package>

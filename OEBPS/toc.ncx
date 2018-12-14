@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ncx version="2005-1" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+  <head>
+    <meta content="urn:uuid:0e1bc514-efe4-4218-915c-3e5cf2d9a9c3" name="dtb:uid"/>
+    <meta content="1" name="dtb:depth"/>
+    <meta content="6" name="dtb:totalPageCount"/>
+    <meta content="6" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>Il mondo dei Sensi e il mondo dello Spirito</text>
+  </docTitle>
+  <navMap>
+    <navPoint id="navPoint1">
+      <navLabel>
+        <text>Copertina</text>
+      </navLabel>
+      <content src="Text/cover.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint2">
+      <navLabel>
+        <text>Prima conferenza</text>
+      </navLabel>
+      <content src="Text/cap01.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint3">
+      <navLabel>
+        <text>Seconda conferenza</text>
+      </navLabel>
+      <content src="Text/cap02.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint4">
+      <navLabel>
+        <text>Terza conferenza</text>
+      </navLabel>
+      <content src="Text/cap03.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint5">
+      <navLabel>
+        <text>Quarta conferenza</text>
+      </navLabel>
+      <content src="Text/cap04.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint6">
+      <navLabel>
+        <text>Quinta conferenza</text>
+      </navLabel>
+      <content src="Text/cap05.xhtml"/>
+    </navPoint>
+    <navPoint id="navPoint7">
+      <navLabel>
+        <text>Sesta conferenza</text>
+      </navLabel>
+      <content src="Text/cap06.xhtml"/>
+    </navPoint>
+  </navMap>
+  <pageList>
+    <pageTarget id="navPoint8" type="normal" value="9">
+      <navLabel>
+        <text>9</text>
+      </navLabel>
+      <content src="Text/cap01.xhtml#page9"/>
+    </pageTarget>
+    <pageTarget id="navPoint9" type="normal" value="41">
+      <navLabel>
+        <text>41</text>
+      </navLabel>
+      <content src="Text/cap02.xhtml#page41"/>
+    </pageTarget>
+    <pageTarget id="navPoint10" type="normal" value="73">
+      <navLabel>
+        <text>73</text>
+      </navLabel>
+      <content src="Text/cap03.xhtml#page73"/>
+    </pageTarget>
+    <pageTarget id="navPoint11" type="normal" value="99">
+      <navLabel>
+        <text>99</text>
+      </navLabel>
+      <content src="Text/cap04.xhtml#page99"/>
+    </pageTarget>
+    <pageTarget id="navPoint12" type="normal" value="131">
+      <navLabel>
+        <text>131</text>
+      </navLabel>
+      <content src="Text/cap05.xhtml#page131"/>
+    </pageTarget>
+    <pageTarget id="navPoint13" type="normal" value="161">
+      <navLabel>
+        <text>161</text>
+      </navLabel>
+      <content src="Text/cap06.xhtml#page161"/>
+    </pageTarget>
+  </pageList>
+</ncx>
